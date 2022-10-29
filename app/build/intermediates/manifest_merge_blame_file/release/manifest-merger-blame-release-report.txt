@@ -1,0 +1,65 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.infixsoft.webview"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Vitalblaze\VitalblazeWebView-main\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Vitalblaze\VitalblazeWebView-main\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Vitalblaze\VitalblazeWebView-main\app\src\main\AndroidManifest.xml:4:5-67
+11-->D:\Vitalblaze\VitalblazeWebView-main\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\Vitalblaze\VitalblazeWebView-main\app\src\main\AndroidManifest.xml:5:5-79
+12-->D:\Vitalblaze\VitalblazeWebView-main\app\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->D:\Vitalblaze\VitalblazeWebView-main\app\src\main\AndroidManifest.xml:6:5-81
+13-->D:\Vitalblaze\VitalblazeWebView-main\app\src\main\AndroidManifest.xml:6:22-78
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->D:\Vitalblaze\VitalblazeWebView-main\app\src\main\AndroidManifest.xml:7:5-80
+14-->D:\Vitalblaze\VitalblazeWebView-main\app\src\main\AndroidManifest.xml:7:22-77
+15
+16    <application
+16-->D:\Vitalblaze\VitalblazeWebView-main\app\src\main\AndroidManifest.xml:9:5-31:19
+17        android:allowBackup="true"
+17-->D:\Vitalblaze\VitalblazeWebView-main\app\src\main\AndroidManifest.xml:11:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.0.0] C:\Users\Gohar\.gradle\caches\transforms-2\files-2.1\95c31c2b84f5033ffa165e3e1878f9f0\core-1.0.0\AndroidManifest.xml:22:18-86
+19        android:hardwareAccelerated="true"
+19-->D:\Vitalblaze\VitalblazeWebView-main\app\src\main\AndroidManifest.xml:10:9-43
+20        android:icon="@drawable/logo"
+20-->D:\Vitalblaze\VitalblazeWebView-main\app\src\main\AndroidManifest.xml:12:9-38
+21        android:label="@string/app_name"
+21-->D:\Vitalblaze\VitalblazeWebView-main\app\src\main\AndroidManifest.xml:13:9-41
+22        android:roundIcon="@drawable/logo"
+22-->D:\Vitalblaze\VitalblazeWebView-main\app\src\main\AndroidManifest.xml:14:9-43
+23        android:supportsRtl="true"
+23-->D:\Vitalblaze\VitalblazeWebView-main\app\src\main\AndroidManifest.xml:15:9-35
+24        android:theme="@style/AppTheme" >
+24-->D:\Vitalblaze\VitalblazeWebView-main\app\src\main\AndroidManifest.xml:16:9-40
+25        <activity android:name="vitalblaze.dewdrop.store.webview.MainActivity" >
+25-->D:\Vitalblaze\VitalblazeWebView-main\app\src\main\AndroidManifest.xml:18:9-24:20
+25-->D:\Vitalblaze\VitalblazeWebView-main\app\src\main\AndroidManifest.xml:18:19-79
+26            <intent-filter>
+26-->D:\Vitalblaze\VitalblazeWebView-main\app\src\main\AndroidManifest.xml:19:13-23:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->D:\Vitalblaze\VitalblazeWebView-main\app\src\main\AndroidManifest.xml:20:17-69
+27-->D:\Vitalblaze\VitalblazeWebView-main\app\src\main\AndroidManifest.xml:20:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->D:\Vitalblaze\VitalblazeWebView-main\app\src\main\AndroidManifest.xml:22:17-77
+29-->D:\Vitalblaze\VitalblazeWebView-main\app\src\main\AndroidManifest.xml:22:27-74
+30            </intent-filter>
+31        </activity>
+32
+33        <!-- <meta-data -->
+34        <!-- android:name="com.google.android.gms.ads.APPLICATION_ID" -->
+35        <!-- android:value="ca-app-pub-3940256099942544/6300978111"/> -->
+36
+37    </application>
+38
+39</manifest>
